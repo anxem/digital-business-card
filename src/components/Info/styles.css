@@ -1,0 +1,85 @@
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  margin-top: 21px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 15.49px;
+  margin-top: 6.19px;
+  color: #f3bf99;
+}
+
+.info-wrapper {
+  background: #1a1b21;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f5;
+}
+
+.info-wrapper > a {
+  font-size: 10.24px;
+  line-height: 15.36px;
+  font-weight: 400;
+  margin-top: 8.81px;
+  margin-bottom: 15px;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.display-pic-holder {
+  width: 317px;
+  border: none;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+  background-image: url(../images/anselm.JPEG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn-holder {
+  width: 250px;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  /* display: "flex"; */
+  /* flex-direction: row; */
+}
+
+.btn {
+  height: 34px;
+  width: 120px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 9px 13px;
+  display: flex;
+  cursor: pointer;
+  /* justify-content: space-around; */
+}
+
+.btn-s {
+  height: 34px;
+  width: 120px;
+  background-color: #5093e2;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 9px 13px;
+  display: flex;
+  cursor: pointer;
+  /* justify-content: space-around; */
+}
+
+.btn span,
+.btn-s span {
+  margin: 0 5px;
+}
