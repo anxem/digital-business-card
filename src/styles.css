@@ -42,9 +42,6 @@ body {
 }
 
 @media only screen and (max-width: 590px) {
-  .background-layer {
-    border-radius: 10px;
-  }
   .wrapper {
     /* width: 100%; */
     margin: 0;
